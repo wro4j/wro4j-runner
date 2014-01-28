@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <name>wro4j runner</name>
     <properties>
-	<wro4j.version>1.7.2</wro4j.version>
+	<wro4j.version>1.7.3</wro4j.version>
         <wro4j.runner.mainClass>ro.isdc.wro.runner.Wro4jCommandLineRunner</wro4j.runner.mainClass>
     </properties>
     <dependencies>
