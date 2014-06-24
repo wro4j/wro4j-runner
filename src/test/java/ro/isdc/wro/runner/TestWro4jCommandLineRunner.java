@@ -371,7 +371,6 @@ public class TestWro4jCommandLineRunner {
     final File temp = WroUtil.createTempFile();
     final WroConfiguration expected = new WroConfiguration();
     expected.setConnectionTimeout(10000);
-    expected.setDisableCache(true);
     expected.setEncoding("ISO-8859-1");
     try {
       new Wro4jCommandLineRunner() {
